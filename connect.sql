@@ -1,0 +1,54 @@
+-- CREATE DATABASE myDB;
+-- USE myDB;
+-- CREATE TABLE user (
+--     id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+--     name VARCHAR(50),
+--     gender VARCHAR(6),
+--     birth_date DATE,
+--     nationality VARCHAR(20),
+--     place_of_birth VARCHAR(20),
+--     job_title VARCHAR(30),
+--     year_of_experience INT(2)
+-- );
+-- ALTER TABLE user
+-- ADD image VARCHAR(100) NOT NULL
+-- AFTER year_of_experience;
+-- CREATE TABLE experience (
+--     id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+--     category VARCHAR(20),
+--     num_of_hours INT(3),
+--     start_date DATE,
+--     end_date DATE,
+--     institution VARCHAR(50),
+--     notes VARCHAR(5000)
+-- );
+-- CREATE TABLE course (
+--     id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+--     name VARCHAR(20),
+--     num_of_hours INT(3),
+--     start_date DATE,
+--     end_date DATE,
+--     file VARCHAR(100),
+--     institution VARCHAR(50),
+--     notes VARCHAR(5000)
+-- );
+-- INSERT INTO user (
+--         name,
+--         gender,
+--         birth_date,
+--         nationality,
+--         place_of_birth,
+--         job_title,
+--         year_of_experience,
+--         image
+--     )
+-- VALUES (
+--         'Dina Almasri',
+--         'Female',
+--         '2002-04-17',
+--         'Palestinian',
+--         'Gaza',
+--         'Software engineer',
+--         2,
+--         'Personal_Information_picture.png'
+--     );
